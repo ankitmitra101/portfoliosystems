@@ -1,0 +1,28 @@
+# Ignore Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore data and log outputs (but keep folder structure)
+logs/*
+!logs/.gitkeep
+data/*
+!data/.gitkeep
+
+# Ignore system and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore temporary files or notebooks checkpoints
+*.ipynb_checkpoints
+*.tmp
+*.log
+
+# Ignore credentials or keys if any
+config/*.json
+secrets/

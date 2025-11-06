@@ -1,0 +1,10 @@
+# config/settings.yaml
+data_dir: "data/csv"       # root for CSV files: data/csv/<source>/<SYMBOL>_<TF>.csv
+mode: "backtest"           # "backtest" or "live" (live uses simulated feed until you wire real APIs)
+default_timeframes:
+  - "1m"
+  - "1h"
+exchanges:
+  - binance
+  - zerodha
+  - ibkr
